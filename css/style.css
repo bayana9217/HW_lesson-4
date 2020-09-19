@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+	text-transform: uppercase;
+}
+img {
+	vertical-align: top;
+}
+
+
+html,
+body{
+	font-size: 14px;
+	line-height: 1;
+	font-family: "Gilroy";
+	line-height: 16px;
+}
+/* -------------- */
+
+
+
+
+.wrpper {
+}
+.header {
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 22px;
+	color: green;
+}
+
+.title {
+	font-family: "Roboto";
+	font-size: 26px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 28px;
+	letter-spacing: 2;
+	color: #000;
+	text-shadow: 2px -3px 4px rgba(233, 44, 44, 0.486);
+}
+.link {
+	color: fuchsia;
+}
+
+.main {
+}
+
+.block__main {
+	font-family: "Roboto";
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	text-transform: capitalize;
+	word-spacing: 10px;
+	line-height: 20px;
+	color: deeppink;
+}
+
+span{
+	text-decoration: line-through;
+	color: darkmagenta;
+}
+
+.names {
+}
+
+.link__main {
+	color: deepskyblue;
+	text-decoration: overline;
+}
+
+.block__1 {
+	font-family: "Roboto";
+	line-height: 20px;
+	letter-spacing: 3;
+	color: rgb(133, 7, 218);
+	text-shadow: 3px 5px 10px rgb(109, 105, 107), -3px -5px 10px rgba(16, 131, 245, 0.719);
+}
+
+.subtitle {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 28px;
+	color: darkslateblue;
+	text-shadow: 3px -5px 6px rgba(0, 255, 34, 0.459);
+}
+
+.info {
+}
+
+.block__2 {
+	font-size: 20px;
+	font-style: italic;
+	line-height: 24px;
+	text-align: right;
+	color: #c20c2b;
+}
+
+.block__3 {
+	font-size: 28px;
+	text-align: center;
+	line-height: 32px;
+	color: #bd9e18;
+	text-shadow: -1px -3px 15px rgba(24, 197, 8, 0.445),3px 4px 15px rgba(247, 1, 226, 0.555);
+}
+
+.block__4 h2{
+	text-decoration: overline;
+}
+.block__4{
+	font-size: 18px;
+	font-family: "Roboto";
+}
+.block__5 {
+	font-size: 25px;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	line-height: 28px;
+	color: #f0d911;
+}
+.block__6 {
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 500;
+	text-align: right;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: rgb(255, 23, 139);
+	text-shadow: 3px 3px 7px rgba(124, 122, 122, 0.61);
+}
+.block__7 {
+	font-weight: 700;
+	text-align: center;
+	line-height: 20px;
+	color: #00e71f;
+}
+.block__8 {
+	font-size: 28px;
+	line-height: 30px;
+	text-indent: 50px;
+	color: rgb(23, 0, 151);
+}
+.block__9 {
+	font-family: "Roboto";
+	font-size: 18px;
+	text-align: center;
+	color: rgb(75, 165, 255);
+	text-shadow: 1px 3px 5px rgba(245, 87, 237, 0.527), -1px -3px 5px rgba(245, 248, 47, 0.685);;
+}
+.block__10 {
+	text-align: justify;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 800;
+	color: salmon;
+}
+.footer {
+	text-align: center;
+}
+.end {
+	font-size: 18px;
+	line-height: 22px;
+	font-style: italic;
+	color: springgreen;
+}
+.end a{
+	text-decoration: overline;
+}
