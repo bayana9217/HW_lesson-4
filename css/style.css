@@ -60,6 +60,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing:border-box;
 }
 ol li,
 ul li {
@@ -80,7 +81,6 @@ h5,
 h6 {
 	font-weight: inherit;
 	font-size: inherit;
-	text-transform: uppercase;
 }
 img {
 	vertical-align: top;
@@ -89,6 +89,7 @@ img {
 
 html,
 body{
+	height: 100%;
 	font-size: 14px;
 	line-height: 1;
 	font-family: "Gilroy";
@@ -97,9 +98,9 @@ body{
 /* -------------- */
 
 
-
-
 .wrpper {
+	overflow: hidden;
+	min-height: 100%;
 }
 .header {
 	font-size: 20px;
@@ -107,6 +108,8 @@ body{
 	text-align: center;
 	line-height: 22px;
 	color: green;
+	background-color: beige;
+	padding: 20px;
 }
 
 .title {
@@ -118,12 +121,15 @@ body{
 	letter-spacing: 2;
 	color: #000;
 	text-shadow: 2px -3px 4px rgba(233, 44, 44, 0.486);
+	margin: 0px 0px 20px 0px;
 }
 .link {
 	color: fuchsia;
 }
 
 .main {
+	background-color: aliceblue;
+	padding: 20px;
 }
 
 .block__main {
@@ -143,6 +149,9 @@ span{
 }
 
 .names {
+	background-color: #fff;
+	padding: 10px;
+	display: inline-block;
 }
 
 .link__main {
@@ -157,29 +166,43 @@ span{
 	color: rgb(133, 7, 218);
 	text-shadow: 3px 5px 10px rgb(109, 105, 107), -3px -5px 10px rgba(16, 131, 245, 0.719);
 }
-
+.block__1, 
+.block__2, 
+.block__3, 
+.block__4, 
+.block__5, 
+.block__6, 
+.block__7, 
+.block__8, 
+.block__9, 
+.block__10{
+	margin: 20px;
+}
 .subtitle {
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 28px;
 	color: darkslateblue;
 	text-shadow: 3px -5px 6px rgba(0, 255, 34, 0.459);
+	margin: 20px 0px;
 }
 
 .info {
+	margin: 20px;
+	letter-spacing: 2;
 }
 
 .block__2 {
 	font-size: 20px;
 	font-style: italic;
 	line-height: 24px;
-	text-align: right;
+	text-align: center;
 	color: #c20c2b;
 }
 
 .block__3 {
 	font-size: 28px;
-	text-align: center;
+	text-align: right;
 	line-height: 32px;
 	color: #bd9e18;
 	text-shadow: -1px -3px 15px rgba(24, 197, 8, 0.445),3px 4px 15px rgba(247, 1, 226, 0.555);
@@ -238,6 +261,8 @@ span{
 }
 .footer {
 	text-align: center;
+	background: rgb(133, 133, 133);
+	padding: 20px;
 }
 .end {
 	font-size: 18px;
